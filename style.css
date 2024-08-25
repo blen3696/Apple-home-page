@@ -1,0 +1,404 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 30px;
+}
+img {
+    max-width: 100%;
+    max-height: max-content;
+}
+
+/*header style */
+.head {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    
+    
+}
+.head ul {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    list-style: none;
+} 
+.headlinks {
+    width: 980px;
+    padding: 0 5px;
+    margin: 0 auto;
+    left: -30px;
+}
+.head ul li a {
+    text-decoration: none;
+    color: white;
+}
+.head ul li {
+    display: inline-block;
+    font-size: 0.75em;
+    padding: 5px 0 8px;
+    height: 20px;
+    opacity: 0.8;
+}
+.head ul li:hover{
+    opacity: 1;
+}
+#apple, #search, #cart {
+    width: 14px;
+    display: block;
+}
+#search {
+    position: relative;
+    top: 3px;
+}
+#apple{
+    position: relative;
+    top: -3px;
+}
+
+    
+.sec1 {
+  
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #fafafa;
+    padding: 45px 0;
+    margin-top: 0;
+    
+}
+.first {
+    margin-top: 30px;
+    height: 200px;
+}
+.first h1 {
+    font-size: 2.8em;
+    margin-bottom: 0px;
+   margin-top: 0px;
+}
+    
+#p1 {
+    font-size: 0.9em;
+    padding-top: 0px;
+    position: relative;
+    top: 15px;
+}
+#p2 {
+    font-size: 1.2em;
+}
+
+.sec2 {
+    width: 100%;
+     height: 370px;
+     
+}
+#secimage{
+    width: 100%;
+    max-width: 100%;
+   
+}
+.third {
+    color:rgba(255, 255,255, 0.9);
+    text-align: center;
+    background-color: black;
+    height:250px;
+     
+}
+
+.third h1 {
+    font-size: 2.7em;
+}
+
+.sec3 {
+    width: 100%;
+    height: 400px;
+}
+#thirdimage{
+    width: 100%;
+    max-width: 100%;
+    
+}
+.forth {
+    height: 250px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #fafafa;
+}
+.forth h1 {
+    position: relative;
+    top: 20px;
+    font-size: 2.7em;
+}
+.sec4 {
+    margin-top: 10px;
+    display: block;
+    
+    text-align: center;
+}
+.fifth {
+    
+    background-color: #fafafa;
+    padding: 0px;
+    margin: 35px 10px 0px 20px;
+   
+} 
+.fifth1 {
+    height: 200px;
+}
+
+.sixth {
+    padding-top: 10px;
+    background-color: #fafafa;
+    margin: 35px 20px 0px 10px;
+}
+.sixth1{
+    height: 200px;
+}
+.sec5 {
+    display: block;
+    text-align: center;
+    
+}
+#servant {
+    position: relative;
+    bottom: -150px;
+}
+.seventh {
+      background-image: url(images/apple-tv-background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: aqua;
+      margin: 20px 0 20px 20px;
+      height: 500px;
+      
+}
+.eighth {
+     background-color: #000;
+     color: rgba(255, 255,255, 0.9);
+     margin: 20px;
+    
+}
+.eigtht1 {
+    height: 200px;
+    padding: 20px;
+}
+.eighth h1 {
+    font: 20px;
+}
+.sec6 {
+    text-align: center;
+}
+.nineth {
+   margin: 0px 0px 0px 20px;
+   background-color: #fafafa;
+   
+}
+.nineth1{
+    height: 180px;
+}
+.nineth p {
+    position: relative;
+    top: 10px;
+}
+
+.nineth h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.tenth {
+  
+   padding-top: 20px;
+   margin: 0px 20px 0px 20px;
+   background-color: #fafafa;
+   
+}
+.tenth1 {
+    height: 180px;
+}
+.learnMore{
+    padding: 10px 20px;
+   
+ color: white;
+    border: 1px solid  #06c ;
+    background-color:  #06c;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.learnMore:hover{
+    background-color: rgb(4, 88, 172);
+}
+.buy {
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: #06c;
+    border: 1px solid  #06c ;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.buy:hover {
+    background-color: #06c;
+    color: white;
+}  
+
+
+       /* fotter styling*/
+
+footer {
+    background-color: #f5f5f7;
+    color: #1d1f1f;
+    font-size: 0.8em;
+    padding: 0px 15px 20px;
+}
+.par1 {
+    border-bottom: 1px solid #d2d2d7;
+    color: #9a9aa2;
+    padding:17px 0 20px ;
+}
+.links {
+    display: block;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.links h3 {
+    border-bottom: 1px solid #d2d2d7;
+    color: #6e6e71;
+}
+.links h3 button{
+    float: right;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #6e6e71;
+}
+
+.links ul {
+    list-style: none ;
+    padding-bottom: 10px;
+    list-style-position: inside;
+    display: none;
+  
+}
+.links ul li {
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin-left: -40px;
+}
+
+li a {
+    text-decoration: none;
+    color:#86868b;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+.par7 {
+    font-size: 1.1em;
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+}
+.par7 a {
+    color: #06c;
+    
+}
+.par8 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 1.2em;
+
+}
+.last a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color:#86868b;
+}
+.last a:hover {
+    text-decoration: underline;
+}
+   
+.last p {
+    color:#86868b;
+    position: relative;
+    font-size: 0.9em;
+    top: -10px;
+}
+
+@media (min-width: 720px){
+    .sec1{
+    height: 660px;
+    }
+    .sec2{
+        height: 450px;
+    }
+    .sec3{
+        height:570px ;
+    }
+    .forth {
+       
+        padding-top: 90px;
+    }
+    .sec4 { 
+        display: flex;
+        justify-content: space-between; 
+        margin-top: 100px;
+    }
+    
+    .sec5 {
+        display: flex;
+        text-align: center;
+        
+    }
+    .seventh{
+        width: 50%;
+        height: 605px;
+    }
+    .eighth{
+        width: 50%;
+    }
+    .eigtht1 {
+        height: 180px;
+    }
+    .sec6 {
+        display: flex;
+        text-align: center;
+    }
+    .nineth {
+       width: 50%;
+    }
+    .tenth {
+        width: 50%;
+    }
+
+
+    footer {
+        padding: 0px 140px 20px;
+    }
+    .links ul{
+        display: block;
+    }
+    .links {
+        display: flex;
+       -webkit-box-pack: justify;
+        justify-content: space-between;
+        padding-top: 20px;
+      
+    }
+    .links h3 {
+        border-bottom: none;
+        color: #000;
+    }
+    .links h3 button {
+        display: none;
+    }
+}
+
